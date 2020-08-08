@@ -31,7 +31,7 @@ function Register(){
 		await Firebase.register(name, email, password)
 		.then(() => {
 			console.log('ok')
-			document.location.href = 'http://localhost:3000';
+			document.location.href = 'https://reachzone.herokuapp.com';
 		})
 		.catch((err) => {
 			setMessage(err.message);

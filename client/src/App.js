@@ -159,8 +159,8 @@ class App extends Component {
                 <><a className="btn auth" onClick={this.Logout}>Logout</a></>
               :
                <> 
-                <a href="http://localhost:3000/identity/register" className="btn auth">SignUp</a>
-                <a href="http://localhost:3000/identity/login" className="btn auth">Login</a>
+                <a href="https://reachzone.herokuapp.com/identity/register" className="btn auth">SignUp</a>
+                <a href="https://reachzone.herokuapp.com/identity/login" className="btn auth">Login</a>
                 </>
             }
             
@@ -242,7 +242,7 @@ class App extends Component {
                              </div>
 
                              <div style={{flex: 1}}>
-                                <a href="http://localhost:3000/identity/login" id="submit" className="btn btn-warning">Submit</a>
+                                <a href="https://reachzone.herokuapp.com/identity/login" id="submit" className="btn btn-warning">Submit</a>
                               </div>
                         </div>
                     
