@@ -4,7 +4,6 @@ import { Link } from 'react-router-dom';
 import Firebase from './components/firebase';
 import {PuffLoader} from 'react-spinners';
 
-console.log(process.env);
 
 class App extends Component {
   constructor(props){
