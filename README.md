@@ -4,11 +4,11 @@
     
 In the project directory, you can run:
 
-### `cd client`
+`cd client`
 
-### `npm install`
+`npm install`
 
 ## start server
 
-### `npm run start`
+`npm run start`
 
