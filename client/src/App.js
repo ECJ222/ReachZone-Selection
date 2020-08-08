@@ -4,6 +4,8 @@ import { Link } from 'react-router-dom';
 import Firebase from './components/firebase';
 import {PuffLoader} from 'react-spinners';
 
+console.log(process.env);
+
 class App extends Component {
   constructor(props){
     super(props);
@@ -148,6 +150,7 @@ class App extends Component {
     var tasks = this.state.todoList;
     var self = this;
     localStorage.setItem('title', this.state.activeItem.title);
+
     
     return(
         <>
